@@ -1,0 +1,17 @@
+<section>
+  <div class="login-body">
+
+    <div class="form">
+      <div>
+        <label ng-show="failed">{{authMessage}}</label>
+      </div>
+      <input type="text" ng-model="user.username" placeholder="Enter Username"/>
+      <input type="password" ng-model="user.password" placeholder="Enter Password"/>
+    </div>
+
+    <div class="login-buttons">
+      <button type="reset">Cancel</button>
+      <button ng-click="authenticateUser()">Save</button>
+    </div>
+  </div>
+</section>

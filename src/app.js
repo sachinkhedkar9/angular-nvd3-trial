@@ -1,15 +1,17 @@
-var ChartingApp = angular.module("AgriBusinessApp",['ngRoute']);
+var ChartingApp = angular.module("ChartingApp",['ngRoute']);
 
 ChartingApp.config(['$routeProvider', function($routeProvider){
   $routeProvider.
+  when("/login/",{
+    controller: 'loginController',
+    templateUrl: 'views/login.html',
+  }).
   when("/home/",{
+    controller: 'homeController',
     templateUrl: 'views/home.html',
   }).
-  when("/about/",{
-    templateUrl: 'views/about.html',
-  }).
   otherwise({
-    redirectTo: '/home/'
+    redirectTo: '/login/'
   })
 }]);
 
