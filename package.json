@@ -1,8 +1,8 @@
 {
-  "name": "pratiks_project",
+  "name": "angular-nvd3-trial_project",
   "version": "1.0.0",
   "description": "POC for angriculture business site, reference - Pratik's Landlord.",
-  "repository": "https://github.com/sachinkhedkar9/pratiks_project.git",
+  "repository": "https://github.com/sachinkhedkar9/angular-nvd3-trial_project.git",
   "keywords": [
     "util",
     "functional",

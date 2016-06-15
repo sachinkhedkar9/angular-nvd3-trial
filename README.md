@@ -1,4 +1,4 @@
-# pratiks_project
+# angular-nvd3-trial_project
 Pratik's project for his landlord.
 
 
@@ -18,8 +18,8 @@ Things to do :
 *(For the first time)*
 #### 1. clone the repository
 
-		git clone https://github.com/sachinkhedkar9/pratiks_project.git
-		cd pratiks_project
+		git clone https://github.com/sachinkhedkar9/angular-nvd3-trial_project.git
+		cd angular-nvd3-trial_project
 		git status
 
 git status to check if the repository is cloned or not
