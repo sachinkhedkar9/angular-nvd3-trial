@@ -1,6 +1,6 @@
-var ShoppingApp = angular.module("AgriBusinessApp",['ngRoute']);
+var ChartingApp = angular.module("AgriBusinessApp",['ngRoute']);
 
-ShoppingApp.config(['$routeProvider', function($routeProvider){
+ChartingApp.config(['$routeProvider', function($routeProvider){
   $routeProvider.
   when("/home/",{
     templateUrl: 'views/home.html',
@@ -13,6 +13,6 @@ ShoppingApp.config(['$routeProvider', function($routeProvider){
   })
 }]);
 
-ShoppingApp.controller('masterController', ['$scope', '$rootScope', function($scope, $rootScope){
+ChartingApp.controller('masterController', ['$scope', '$rootScope', function($scope, $rootScope){
 
 }]);

@@ -1,16 +1,4 @@
-# angular-nvd3-trial_project
-Pratik's project for his landlord.
-
-
-Initial stage
-Deadline - March 4, 2016
-
-Things to do :
-1. Select a free web template from web
-2. create geolocation example ready
-3. create carousel
-4. dump the sample data
-
+# angular-nvd3-trial
 
 ## Guys do not commit anything directly to master.
 ### Follow the below steps to commit..
@@ -18,7 +6,7 @@ Things to do :
 *(For the first time)*
 #### 1. clone the repository
 
-		git clone https://github.com/sachinkhedkar9/angular-nvd3-trial_project.git
+		git clone https://github.com/sachinkhedkar9/angular-nvd3-trial.git
 		cd angular-nvd3-trial_project
 		git status
 
@@ -39,7 +27,7 @@ to verify the current working/active branch
 
 *(working in branches)*
 #### 3.  verify current working/active branch
-		
+
 		git branch
 if you want to switch between branches use
 
@@ -51,7 +39,7 @@ if you want to switch between branches use
 
 		git checkout -b <new-branch-name>
 
-*NOTE:* above command creates a new branch based on your current branch. Like for ex. if you are currently on xyz-branch and you checkout a new abc-branch. Then abc-branch will have all commits from xyz-branch. 
+*NOTE:* above command creates a new branch based on your current branch. Like for ex. if you are currently on xyz-branch and you checkout a new abc-branch. Then abc-branch will have all commits from xyz-branch.
 The best practice for creating a new branch is creating the branch based on master. Steps as follows,
 
 
@@ -75,7 +63,7 @@ shows the diff for the mentioned folder
 shows the diff for the particular file
 
 #### 7. to remove the changes made in whole file
-	
+
 		git checkout <file-name>
 undo the changes of the file
 
@@ -86,7 +74,7 @@ undo the changes of all files in the mentioned folder
 undo all the changes of the project
 
 #### 8.  adding the files for committing
-	
+
 		git add <file1, file2, ..., file_n>
 adds mentioned files
 
@@ -116,12 +104,12 @@ commits all the files added..
 		git rebase -i <base-commit-id-on-which-you-want-to-rebase>
 
 eq. after 		
-		
+
 		git log
 
 		commit 1232123132131232
 		author: Some name 1
-		
+
 			some message 1		
 
 		commit 656556565656565
@@ -134,13 +122,13 @@ eq. after
 
 			some message 3
 
-then if you run command 
+then if you run command
 
 		git rebase -i 555555555555555
 
 a page will open asking for which commits to squash
 change the file like
-	
+
 		pick 5555555 some message 1
 		squash 6556565 some message 2
 		squash 1231231 some message 3
@@ -159,7 +147,7 @@ although if you just close this file, all the messages for the previous commits 
 
 		commit 555555555555
 		author: some name 2
-			
+
 			some message 3			
 
 you can change the messages or keep some messages or create a new message. Comment the message(s) that are not needed. Like,
@@ -179,11 +167,11 @@ result would be like
 		author: some name 1
 
 			added new message
-		
+
 		commit 555555555555
 		author: some name 2
-			
-			some message 3	
+
+			some message 3
 
 
 result would be like
@@ -196,14 +184,13 @@ result would be like
 		commit 555555555555555
 		author: some name 2
 
- 
+
 #### 12.  push the changes to the branch *(most-important)*
 
 		git push origin <branch-name>
-	
+
 this will push the committed changes to the server on the specified branch.
 
 *NOTE:* After rebasing in any sense, normal push will not work. You have to forcefully push the commit.
 
 		git push -f origin <branch-name>
-		

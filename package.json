@@ -1,8 +1,8 @@
 {
   "name": "angular-nvd3-trial_project",
   "version": "1.0.0",
-  "description": "POC for angriculture business site, reference - Pratik's Landlord.",
-  "repository": "https://github.com/sachinkhedkar9/angular-nvd3-trial_project.git",
+  "description": "POC for Graphs and charts using angular-nvd3",
+  "repository": "https://github.com/sachinkhedkar9/angular-nvd3-trial.git",
   "keywords": [
     "util",
     "functional",
@@ -14,9 +14,10 @@
   "contributors": [],
   "dependencies": {
     "angular": "^1.4.8",
+    "angular-nvd3": "^1.0.7",
     "browserify": "^12.0.1",
-    "gulp": "^3.9.0",
-    "del": "^2.2.0"
+    "del": "^2.2.0",
+    "gulp": "^3.9.0"
   },
   "peerDependencies": {
     "gulp-jshint": "^2.0.0"
